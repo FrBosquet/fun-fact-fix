@@ -1,4 +1,19 @@
+body {
+  margin: 0;
+  padding: 2em;
+  background: rgb(161, 205, 161);
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+p {
+  font-size: 3em;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 0 10px red;
 }
