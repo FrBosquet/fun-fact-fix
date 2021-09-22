@@ -7,6 +7,7 @@ const actions = [
   "got drunk",
   "learned to sew",
   "defended my house",
+  "discovered that Arizmendi is an aztec/mayen surname"
 ];
 
 const moments = [
