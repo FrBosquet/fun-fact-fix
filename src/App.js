@@ -11,8 +11,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>fun-fact-fix</h1>
-      <h2>fun fact generator!</h2>
+      <img src="fun-fact-fix/logo.png" />
+      <h3>The best fun fact generator!</h3>
       <button onClick={generate}>G E N E R A T E N O W!</button>
       {funFact && <p>{funFact}</p>}
     </div>

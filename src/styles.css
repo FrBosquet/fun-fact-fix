@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 2em;
-  background: rgb(161, 205, 161);
+  background: black;
+  color: white;
 }
 
 .App {
