@@ -5,7 +5,8 @@ const actions = [
   "shouted",
   "drank",
   "got drunk",
-  "learned to sew"
+  "learned to sew",
+  "defended my house",
 ];
 
 const moments = [
@@ -15,18 +16,20 @@ const moments = [
   "that time when i was so busy",
   "I dont remember when, but",
   "on my first day at taxfix",
-  "during the last reconnect"
+  "during the last reconnect",
+  "that time when"
 ];
 
 const people = [
-  "a shark",
-  "two weird guys",
-  "an otter",
-  "a tax exert",
-  "Tim",
-  "Juanito and Hernan",
-  "a retired policeman",
-  "a midnight agressor"
+  "with a shark",
+  "with two weird guys",
+  "with an otter",
+  "with a tax exert",
+  "with Tim",
+  "with Juanito and Hernan",
+  "with a retired policeman",
+  "from a midnight agressor",
+  "from a gang of monkeys",
 ];
 
 const places = [
@@ -36,7 +39,8 @@ const places = [
   "at a park",
   "in the middle of Berlin",
   "inside a plane",
-  "on a lake"
+  "on a lake",
+  "in my hometown"
 ];
 
 const pick = (arr) => {
@@ -51,5 +55,5 @@ export const funFactGenerator = () => {
   const who = pick(people);
   const where = pick(places);
 
-  return `${when} I ${action} with ${who} ${where}`;
+  return `${when} I ${action} ${who} ${where}`;
 };
