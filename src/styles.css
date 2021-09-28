@@ -1,3 +1,8 @@
+* {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
 body {
   margin: 0;
   padding: 2em;
@@ -12,9 +17,16 @@ body {
   max-width: 600px;
 }
 
-p {
+.fun-fact {
   font-size: 3em;
   font-weight: 800;
   color: white;
   text-shadow: 0 0 10px red;
+}
+
+.version {
+  display: box;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
