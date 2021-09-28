@@ -7,7 +7,8 @@ const actions = [
   "got drunk",
   "learned to sew",
   "defended my house",
-  "discovered that Arizmendi is an aztec/mayen surname"
+  "discovered that Arizmendi is an aztec/mayen surname",
+  "turned off the camera"
 ];
 
 const moments = [
@@ -18,7 +19,8 @@ const moments = [
   "I dont remember when, but",
   "on my first day at taxfix",
   "during the last reconnect",
-  "that time when"
+  "that time when",
+  "in the middle of a meeting"
 ];
 
 const people = [
@@ -31,17 +33,19 @@ const people = [
   "with a retired policeman",
   "from a midnight agressor",
   "from a gang of monkeys",
+  "because of a guy who doesnt mean to be rude"
 ];
 
 const places = [
   "in the taxfix 5 anniversary party",
   "in the taxfix new office",
-  "t my parents house",
+  "at my parents house",
   "at a park",
   "in the middle of Berlin",
   "inside a plane",
   "on a lake",
-  "in my hometown"
+  "in my hometown",
+  "in a meeting booth"
 ];
 
 const pick = (arr) => {
